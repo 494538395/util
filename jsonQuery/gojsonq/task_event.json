@@ -1,0 +1,20 @@
+{
+  "taskEventConfig": [
+    {
+      "id": 200,
+      "event": "battle",
+      "target": {
+        "type": 0,
+        "field": "damage"
+      },
+      "topic": "battle",
+      "cond": [
+        {
+          "key": "level",
+          "expr": "eq",
+          "val": 2
+        }
+      ]
+    }
+  ]
+}

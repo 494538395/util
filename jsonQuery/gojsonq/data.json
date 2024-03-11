@@ -1,0 +1,62 @@
+{
+  "name": "shopping cart",
+  "person": {
+    "name": "jerry",
+    "age": 24,
+    "address": ["beijing", "shenzhen"]
+  },
+  "prices": [
+    "2400",
+    "2100",
+    "1200",
+    "400.87",
+    "89.90",
+    "150.10"
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "count": 2,
+      "price": 12
+    },
+    {
+      "id": 2,
+      "name": "Notebook",
+      "count": 10,
+      "price": 3
+    },
+    {
+      "id": 3,
+      "name": "Pencil",
+      "count": 5,
+      "price": 1
+    },
+    {
+      "id": 4,
+      "name": "Camera",
+      "count": 1,
+      "price": 1750
+    },
+    {
+      "id": null,
+      "name": "Invalid Item",
+      "count": 1,
+      "price": 12000
+    }
+  ],
+  "consume": [
+    {
+      "itemId": 1,
+      "cnt": 20
+    },
+    {
+      "itemId": 2,
+      "cnt": 50
+    },
+    {
+      "itemId": 3,
+      "cnt": 100
+    }
+  ]
+}

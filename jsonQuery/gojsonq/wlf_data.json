@@ -1,0 +1,61 @@
+{
+  "identifier": 2001,
+  "operation": "1709699486525182749",
+  "pushData": {
+    "event": "topic.pvp.sync",
+    "topic": "Topic_Pvp",
+    "seqId": 2203,
+    "data": {
+      "sid": 7,
+      "score": 1000,
+      "jerry.name": "li",
+      "seasonMaxScore": 1000,
+      "stageRwdStatus": {
+        "reward1": [
+          {
+            "itemId": 1,
+            "cnt": 20
+          },
+          {
+            "itemId": 2,
+            "cnt": 50
+          }
+        ],
+        "reward2": [
+          {
+            "itemId": 3,
+            "cnt": 100
+          }
+        ]
+      },
+      "pick": [
+        {
+          "itemId": 1,
+          "address": "beijing",
+          "cnt": 20
+        },
+        {
+          "itemId": 2,
+          "address": "shenzhen",
+          "cnt": 100
+        },
+        {
+          "itemId": 4,
+          "address": "shanghai",
+          "cnt": 400
+        },
+        {
+          "itemId": 5,
+          "address": "nanjing",
+          "cnt": 400
+        }
+      ],
+      "stage": 1,
+      "vectoryStar": {
+        "maxProg": 5
+      }
+    },
+    "errCode": 1,
+    "errMsg": "ok"
+  }
+}
